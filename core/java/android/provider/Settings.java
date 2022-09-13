@@ -7159,6 +7159,9 @@ public final class Settings {
          */
         public static final String SHOW_ZEN_SETTINGS_SUGGESTION = "show_zen_settings_suggestion";
 
+        /** @hide */
+        public static final String OMNI_NAVIGATION_BAR_RECENTS = "navigation_bar_recents";
+        
         /**
          * If nonzero, zen has not been updated to reflect new changes.
          * @hide
