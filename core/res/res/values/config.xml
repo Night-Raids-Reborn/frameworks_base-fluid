@@ -4412,9 +4412,6 @@
     <!-- Component names of the services which will keep critical code path warm -->
     <string-array name="config_keep_warming_services" translatable="false" />
 
-    <!-- Build fingerprint from a GMS certified device against current platform SPL level -->
-    <string name="config_certifiedFingerprint" translatable="false"></string>
-
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
       <!-- 
@@ -4424,4 +4421,10 @@
         <item>Build.FINGERPRINT</item>
       -->
     </string-array>
+
+    <!-- Build fingerprint from the stock ROM -->
+    <string name="config_stockFingerprint" translatable="false"></string>
+
+    <!-- Whether to spoof device as Pixel XL for Google Photos -->
+    <bool name="config_spoofGooglePhotos">true</bool>
 </resources>
