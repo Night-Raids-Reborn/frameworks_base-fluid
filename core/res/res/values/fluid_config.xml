@@ -115,7 +115,4 @@
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode"></string>
-
-     <!-- Whether to spoof device as Pixel XL for Google Photos -->
-    <bool name="config_spoofGooglePhotos">true</bool>
 </resources>
